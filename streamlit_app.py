@@ -55,4 +55,5 @@ streamlit.write('thanks for adding jack fruit', fruit_choice)
 
 
 #this will not work corrently,but just go with it for now
-my_cnx.execute("insert into fruit_load_list values ('from streamlit')")
+my_cnr.execute("insert into fruit_load_list values ('from streamlit')")
+
