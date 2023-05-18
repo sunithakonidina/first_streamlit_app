@@ -48,3 +48,4 @@ my_cur.execute("select * fruit_load_list")
 my_data_row = my_cur.fetchone()
 streamlit.text("the fruit load list containes:")
 streamlit.text(my_data_row)
+
