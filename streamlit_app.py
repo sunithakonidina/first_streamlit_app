@@ -52,3 +52,7 @@ streamlit.dataframe(my_data_rows)
 streamlit.header("what fruit would you like?")
 fruit_choice = streamlit.text_input('What fruit would you like information about?','jackfruit')
 streamlit.write('thanks for adding jack fruit', fruit_choice)
+
+
+#this will not work corrently,but just go with it for now
+my_cnx.execute("insert into fruit_load_list values ('from streamlit')")
