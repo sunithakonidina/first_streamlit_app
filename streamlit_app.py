@@ -55,5 +55,5 @@ streamlit.write('thanks for adding jack fruit', fruit_choice)
 
 
 #this will not work corrently,but just go with it for now
-my_cnr.execute("insert into fruit_load_list values ('from streamlit')")
+my_cur.execute("insert into fruit_load_list('from streamlit')")
 
